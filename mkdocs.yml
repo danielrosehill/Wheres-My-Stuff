@@ -2,6 +2,12 @@ site_name: Where's My Stuff
 site_description: Documentation for WMS, a customised fork of Homebox
 site_url: https://danielrosehill.github.io/Wheres-My-Stuff/
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/danielrosehill/Wheres-My-Stuff
+  og_image: assets/images/og-image-1183x665.png
+
 theme:
   name: material
   palette:
@@ -34,6 +40,10 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - meta
 
 nav:
   - Home: index.md

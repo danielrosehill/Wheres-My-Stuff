@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="assets/graphics/banner-wide-1536x672.png" alt="Where's My Stuff - Home Inventory System" width="100%">
+</p>
+
 # Where's My Stuff?
+
 
 A customised fork of [Homebox](https://github.com/sysadminsmedia/homebox), the home inventory system.
 
@@ -22,9 +27,21 @@ Full documentation available at **[danielrosehill.github.io/Wheres-My-Stuff](htt
 
 *Forked from Homebox on 13 December 2025. See [full changelog](https://danielrosehill.github.io/Wheres-My-Stuff/changes/) for detailed implementation notes.*
 
+---
+
+<p align="center">
+  <img src="assets/graphics/feature-ai-search.png" alt="AI-Powered Search" width="80%">
+</p>
+
 ### Search & Retrieval
 - **Semantic search** with embeddings and vector support for AI-powered retrieval
 - **Streamlined asset lookup** — numeric queries treated as asset IDs, text queries as keyword searches
+
+---
+
+<p align="center">
+  <img src="assets/graphics/feature-data-organization.png" alt="Smart Data Organization" width="80%">
+</p>
 
 ### Data Structure Improvements
 - **Lookup tables** for common technical items (cables, connectors, etc.)
@@ -43,6 +60,12 @@ Full documentation available at **[danielrosehill.github.io/Wheres-My-Stuff](htt
 - **Thumbnail optimisation** — 200px micro-thumbnails for faster list loading
 - **Post-upload compression** — automatic image optimisation
 - **Database indexing** improvements
+
+---
+
+<p align="center">
+  <img src="assets/graphics/feature-nfc-integrations.png" alt="NFC & Integrations" width="80%">
+</p>
 
 ### Integrations
 - **NFC support** — write/lock NFC tags on mobile devices (replaces barcode/label system)

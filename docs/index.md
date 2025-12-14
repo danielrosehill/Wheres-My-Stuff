@@ -1,3 +1,17 @@
+---
+meta:
+  - property: og:image
+    content: https://danielrosehill.github.io/Wheres-My-Stuff/assets/images/og-image-1183x665.png
+  - name: twitter:card
+    content: summary_large_image
+  - name: twitter:image
+    content: https://danielrosehill.github.io/Wheres-My-Stuff/assets/images/og-image-1183x665.png
+---
+
+<p align="center">
+  <img src="assets/images/banner-wide-1536x672.png" alt="Where's My Stuff - Home Inventory System" style="max-width: 100%; border-radius: 8px;">
+</p>
+
 # Where's My Stuff
 
 A customised fork of [Homebox](https://github.com/sysadminsmedia/homebox), the home inventory system.
@@ -13,6 +27,22 @@ Homebox has a dedicated team of contributors. I wanted to add some niche feature
 Creating a derivative fork for my own use made more sense than sending back PRs of dubious code quality. Vibe coding is scrappy! The main project may wish to integrate any of these features, or not.
 
 ## Quick Overview of Changes
+
+<div class="grid cards" markdown>
+
+<figure markdown="span">
+  ![AI-Powered Search](assets/images/feature-ai-search.png){ width="100%" }
+</figure>
+
+<figure markdown="span">
+  ![Smart Data Organization](assets/images/feature-data-organization.png){ width="100%" }
+</figure>
+
+<figure markdown="span">
+  ![NFC & Integrations](assets/images/feature-nfc-integrations.png){ width="100%" }
+</figure>
+
+</div>
 
 | Category | Key Features |
 |----------|--------------|
