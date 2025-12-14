@@ -1,0 +1,28 @@
+/* Screenshot styling */
+.screenshot {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 16px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: var(--md-default-bg-color);
+}
+
+.screenshot img {
+  border-radius: 4px;
+  max-width: 100%;
+  display: block;
+}
+
+.screenshot figcaption {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .screenshot {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

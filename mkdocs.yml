@@ -1,0 +1,53 @@
+site_name: Where's My Stuff
+site_description: Documentation for WMS, a customised fork of Homebox
+site_url: https://danielrosehill.github.io/Wheres-My-Stuff/
+repo_url: https://github.com/danielrosehill/Wheres-My-Stuff
+repo_name: danielrosehill/Wheres-My-Stuff
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Changes:
+    - Overview: changes/index.md
+    - Search & Retrieval: changes/search-retrieval.md
+    - Data Structure: changes/data-structure.md
+    - UI & UX: changes/ui-ux.md
+    - Performance: changes/performance.md
+    - AI Features: changes/ai-features.md
+    - Integrations: changes/integrations.md
+  - Screenshots: screenshots.md
