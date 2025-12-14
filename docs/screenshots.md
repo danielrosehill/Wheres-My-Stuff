@@ -27,6 +27,33 @@
   <figcaption>2FA Setup</figcaption>
 </figure>
 
+## Box Management
+
+<figure class="screenshot" markdown>
+  ![Boxes Grid View](screenshots/v1/boxes-mgmt/boxes-grid-view.png)
+  <figcaption>Boxes Grid View - Browse all storage boxes with photos</figcaption>
+</figure>
+
+<figure class="screenshot" markdown>
+  ![Box Contents View](screenshots/v1/boxes-mgmt/box-contents-view.png)
+  <figcaption>Box Contents View - See all items stored in a box</figcaption>
+</figure>
+
+<figure class="screenshot" markdown>
+  ![Item in Box Details](screenshots/v1/boxes-mgmt/item-in-box-details.png)
+  <figcaption>Item in Box Details - View item with box association in breadcrumbs</figcaption>
+</figure>
+
+<figure class="screenshot" markdown>
+  ![Assign Item to Box](screenshots/v1/boxes-mgmt/assign-item-to-box.png)
+  <figcaption>Assign Item to Box - Select which box an item belongs to</figcaption>
+</figure>
+
+<figure class="screenshot" markdown>
+  ![Edit Box Dialog](screenshots/v1/boxes-mgmt/edit-box-dialog.png)
+  <figcaption>Edit Box Dialog - Update box name, description, and location</figcaption>
+</figure>
+
 ## Item Management
 
 <figure class="screenshot" markdown>

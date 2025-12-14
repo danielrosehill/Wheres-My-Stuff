@@ -86,6 +86,8 @@ This fork tracks [sysadminsmedia/homebox](https://github.com/sysadminsmedia/home
 
 ## Screenshots
 
+![Boxes Grid View](screenshots/v1/boxes-mgmt/boxes-grid-view.png)
+
 ![Item Details](screenshots/v1/item-management/item-details.png)
 
 ![Search by Keyword](screenshots/v1/search-and-filter/search-by-keyword.png)
